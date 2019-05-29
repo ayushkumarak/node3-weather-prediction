@@ -7,7 +7,7 @@ callback('network error',undefined)
 }else if(body.error){
 callback('invalid',undefined)
 }else{
-callback(undefined,body.daily.data[0].summary +' it is currentlyy' + body.currently.temperature + 'degrees out.there is a ' +
+callback(undefined,body.daily.data[0].summary +' it is currently ' + body.currently.temperature + 'degrees out.there is a ' +
                    body.currently.precipProbability + '% chance of rain')
 }
 })
