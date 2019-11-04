@@ -1,5 +1,5 @@
 body{
-    color:#333333;
+    color:#00FFFF;
     font-family:arial;
     max-width:650px;
     margin:0 auto;
@@ -9,7 +9,8 @@ body{
     flex-direction:column;
     min-height:100vh;
 
-    background-color:#b2a5a2;
+    background-color:#59504a;
+    background-image:url('https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 }
 
 .main-content{
@@ -17,18 +18,18 @@ body{
 }
 
 footer{
-    color:#888888;
+    color:#F5FFFA;
     border-top:1px solid #eeeeee;
     font-size:10px;
 }
 
 header{
-    margin-top:64px;
-    margin-bottom:16px;
+    margin-top:44px;
+    margin-bottom:10px;
 }
 
 header a{
-    color:#888888;
+    color:#F5FFFA;
     margin-right:16px;
     text-decoration:none;
 }
