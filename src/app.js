@@ -48,6 +48,13 @@ name:'ayush'
 })
 })
 
+app.get('/food',(req,res)=>{
+    res.render('food',{
+        title:'ORDER IT NOW',
+        name:'ayush'
+    })
+})
+
 
 app.get('/weather',(req,res)=>{
 if(!req.query.address){
