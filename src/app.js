@@ -41,13 +41,6 @@ name:'ayush'
 })
 })
 
-app.get('/all',(req,res)=>{
-res.render('all',{
-title:'allll',
-name:'prits'
-})
-})
-
 app.get('/login',(req,res)=>{
 res.render('login',{
 title:'FOR MORE INFO',
