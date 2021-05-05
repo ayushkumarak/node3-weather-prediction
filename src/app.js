@@ -55,6 +55,12 @@ app.get('/food',(req,res)=>{
     })
 })
 
+app.get('/radar'.(req,res)=>{
+    res.render('radar',{
+        title:'SOS',
+        name:'ayush'
+    })
+})
 
 app.get('/weather',(req,res)=>{
 if(!req.query.address){
