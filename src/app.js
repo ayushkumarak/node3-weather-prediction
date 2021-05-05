@@ -55,7 +55,7 @@ app.get('/food',(req,res)=>{
     })
 })
 
-app.get('/radar'.(req,res)=>{
+app.get('/radar',(req,res)=>{
     res.render('radar',{
         title:'SOS',
         name:'ayush'
